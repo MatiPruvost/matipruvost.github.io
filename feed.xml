@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mati Pruvost</title>
+    <atom:link href="http://matipruvost.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://matipruvost.github.io/</link>
+    <description>There are ideas to share · Hay ideas por compartir</description>
+    <pubDate>Mon, 05 Oct 2015 21:00:00 -0300</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Hello world</title>
+      <link>http://matipruvost.github.io//articles/hello-world/</link>
+      <pubDate>Mon, 05 Oct 2015 21:00:00 -0300</pubDate>
+      <guid isPermaLink="true">http://matipruvost.github.io//articles/hello-world/</guid>
+      <author></author>
+      <description>&lt;p&gt;Toda escalera tiene su primer escalón, cada canción tiene su primer estrofa y cada blog tiene su primer artículo.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Empiezo este humilde proyecto con la idea de compartir ideas y experiencias,  en su mayoría serán relacionadas al software, sin embargo habrá lugar para un poco de música e historias.&lt;/p&gt;
+&lt;p&gt;Estuve investigando las posibilidades y herramientas disponibles para mantener un blog, claramente, hay muchas y muy geniales. &lt;/p&gt;
+&lt;p&gt;Elegí &lt;a href=&quot;https://github.com/jnordberg/wintersmith&quot;&gt;Wintersmith&lt;/a&gt; como generador de blogs estáticos y &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; para almacenar el contenido. En otro artículo voy a contar sobre esta elección.&lt;/p&gt;
+&lt;p&gt;Por ahora vamos a intentar desandar este camino !Ya veremos que pasa! 
+Sean bienvenidos y bien llegados.. &lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
