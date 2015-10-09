@@ -1,3 +1,18 @@
 .creativecommons{
 	font-size: 0.7em;
 }
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1.52em;
+}
+
+table, td, th {
+  border: 1px solid #171717;
+  padding: 8px;
+  text-align: center;
+}
+
+td:nth-child(1) {  
+  text-align: initial;
+}

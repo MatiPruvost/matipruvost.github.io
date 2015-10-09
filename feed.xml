@@ -5,9 +5,69 @@
     <atom:link href="http://matipruvost.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://matipruvost.github.io/</link>
     <description>There are ideas to share · Hay ideas por compartir</description>
-    <pubDate>Mon, 05 Oct 2015 21:00:00 -0300</pubDate>
+    <pubDate>Wed, 07 Oct 2015 21:00:00 -0300</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Porque elegí Wintersmith</title>
+      <link>http://matipruvost.github.io//articles/wintersmith/</link>
+      <pubDate>Wed, 07 Oct 2015 21:00:00 -0300</pubDate>
+      <guid isPermaLink="true">http://matipruvost.github.io//articles/wintersmith/</guid>
+      <author></author>
+      <description>&lt;p&gt;Implementé este blog utilizando un generador de sitios estáticos llamado &lt;a href=&quot;http://wintersmith.io/&quot;&gt;Wintersmith&lt;/a&gt;, sin embargo ¿Por qué hice esa elección?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Para empezar hice una lista mental de las características con las que un generador debería contar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Software libre.  &lt;/li&gt;
+&lt;li&gt;Multi plataforma. &lt;/li&gt;
+&lt;li&gt;Desarrollado en un lenguaje que conozca.   &lt;/li&gt;
+&lt;li&gt;Crear contenidos de forma ágil y sencilla.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Después inicié una búsqueda por internet, lo que conseguí fue una cantidad importante de proyectos que satisfacían perfectamente la lista mental. No iba a ser tan simple elegir entre las posibilidades, filtré las opciones y me quedé con dos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wintersmith.io/&quot;&gt;Wintersmith&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://getnikola.com/&quot;&gt;Nikola&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Una comparación entre ellos es la siguiente:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;item \ generador&lt;/th&gt;
+&lt;th&gt;Wintersmith&lt;/th&gt;
+&lt;th&gt;Nikola&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Software libre&lt;/td&gt;
+&lt;td&gt;MIT license&lt;/td&gt;
+&lt;td&gt;MIT license&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multi plataforma&lt;/td&gt;
+&lt;td&gt;✓&lt;/td&gt;
+&lt;td&gt;✓ &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Desarrollado en un lenguaje que conozca&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://nodejs.org&quot;&gt;Node.js&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.python.org&quot;&gt;Python&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Crear contenidos de forma ágil y sencilla&lt;/td&gt;
+&lt;td&gt;✓&lt;/td&gt;
+&lt;td&gt;✓  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Cada generador me parecía perfecto para lo que necesitaba, hubo solo una ventaja para el lado de Wintersmith, es extremadamente sencillo de implementar y de generar contenido. &lt;/p&gt;
+&lt;p&gt;Mi primer objetivo es tener la capacidad de publicar textos simples, sin más que eso, por lo tanto, Wintersmith es mi opción. &lt;/p&gt;
+&lt;p&gt;Nikola, por su parte, ofrece capacidades y posibilidades más amplias, supera a Wintersmith. En esta etapa es mucho más de lo que preciso.&lt;/p&gt;
+&lt;h2 id=&quot;conclusi-n&quot;&gt;Conclusión&lt;/h2&gt;
+&lt;p&gt;Las alternativas de proyectos de generadores de sitios estáticos son variadas, es importante tener en el claro el propósito personal.&lt;/p&gt;
+&lt;p&gt;En cuanto a simpleza en instalación, desarrollo e implementación Wintersmith es una clara posibilidad.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Hello world</title>
       <link>http://matipruvost.github.io//articles/hello-world/</link>
@@ -18,7 +78,7 @@
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Empiezo este humilde proyecto con la idea de compartir ideas y experiencias,  en su mayoría serán relacionadas al software, sin embargo habrá lugar para un poco de música e historias.&lt;/p&gt;
 &lt;p&gt;Estuve investigando las posibilidades y herramientas disponibles para mantener un blog, claramente, hay muchas y muy geniales. &lt;/p&gt;
-&lt;p&gt;Elegí &lt;a href=&quot;https://github.com/jnordberg/wintersmith&quot;&gt;Wintersmith&lt;/a&gt; como generador de blogs estáticos y &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; para almacenar el contenido. En otro artículo voy a contar sobre esta elección.&lt;/p&gt;
+&lt;p&gt;Elegí &lt;a href=&quot;http://wintersmith.io/&quot;&gt;Wintersmith&lt;/a&gt; como generador de blogs estáticos y &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; para almacenar el contenido. En otro artículo voy a contar sobre esta elección.&lt;/p&gt;
 &lt;p&gt;Por ahora vamos a intentar desandar este camino !Ya veremos que pasa! 
 Sean bienvenidos y bien llegados.. &lt;/p&gt;
 </description>
