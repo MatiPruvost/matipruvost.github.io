@@ -5,13 +5,13 @@
     <atom:link href="http://matipruvost.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://matipruvost.github.io/</link>
     <description>There are ideas to share · Hay ideas por compartir</description>
-    <pubDate>Sat, 07 Nov 2015 21:00:00 -0300</pubDate>
+    <pubDate>Sun, 18 Oct 2015 21:00:00 -0300</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>Wintersmith tutoriial</title>
       <link>http://matipruvost.github.io//articles/wintersmith-tutorial/</link>
-      <pubDate>Sat, 07 Nov 2015 21:00:00 -0300</pubDate>
+      <pubDate>Sun, 18 Oct 2015 21:00:00 -0300</pubDate>
       <guid isPermaLink="true">http://matipruvost.github.io//articles/wintersmith-tutorial/</guid>
       <author></author>
       <description>&lt;p&gt;Guía completa para generar un blog utilizando &lt;a href=&quot;http://wintersmith.io/&quot;&gt;Wintersmith&lt;/a&gt; y &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
