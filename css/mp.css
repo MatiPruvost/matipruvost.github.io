@@ -16,3 +16,12 @@ table, td, th {
 td:nth-child(1) {  
   text-align: initial;
 }
+
+.checklist
+{
+  list-style-type: none;
+}
+
+.custom-ul{
+	margin: 0 1em 1.4em 2em;
+}

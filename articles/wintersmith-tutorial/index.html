@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Wintersmith tutoriial - Mati Pruvost
+    </title>
+    <link rel="alternate" href="http://matipruvost.github.io//feed.xml" type="application/rss+xml" title="There are ideas to share · Hay ideas por compartir">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/mp.css">
+    <link rel="icon" type="image/icon" href="/logo.svg">
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-68568287-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Wintersmith tutoriial</h1>
+        <p class="author">Written by <span class="author">Mati Pruvost</span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>Guía completa para generar un blog utilizando <a href="http://wintersmith.io/">Wintersmith</a> y <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+<p><span class="more"></span></p>
+<h1 id="github-pages">GitHub&nbsp;Pages</h1>
+<p>Con GitHub pages es posible crear un website personal rápidamente.
+Se&nbsp;necesita:</p>
+<ul>
+<li>Crear una cuenta en&nbsp;GitHub.  </li>
+<li>Crear el repositorio para tu&nbsp;website.</li>
+<li>Instalar&nbsp;Git.</li>
+</ul>
+<p>Git es un controlador de versiones, por lo tanto, registra los cambios realizados sobre un archivo a lo largo del tiempo. Es un sistema muy utilizado en el desarrollo de&nbsp;software. </p>
+<p>GitHub es una plataforma de desarrollo para alojar proyectos utilizando&nbsp;Git. </p>
+<p>GitHub Pages es un servicio de GitHub para alojar páginas de una manera muy&nbsp;sencilla. </p>
+<p>Entonces, se utiliza GitHub Pages para poder visualizar el website en la web, GitHub para poder alojar el website y Git para poder realizar todos los cambios posibles en el&nbsp;proyecto.</p>
+<h2 id="nueva-cuenta-en-github">Nueva cuenta en&nbsp;GitHub</h2>
+<p>Para crear una nueva cuenta en GitHub tenés que dirigirte a este <a href="https://github.com/join">link</a>. Hay dos tipos de&nbsp;cuentas:</p>
+<ul>
+<li><em>Free</em>: Cantidad de proyectos públicos y colaboradores&nbsp;ilímitados.</li>
+<li><em>Enterprise</em>: Crear proyectos&nbsp;privados.</li>
+</ul>
+<p>Esta cuenta te servirá para alojar tu proyecto en un repositorio Git y para acceder al servicio de GitHub&nbsp;Pages.</p>
+<h2 id="crear-el-repositorio-para-tu-website">Crear el repositorio para tu&nbsp;website</h2>
+<p>Para crear el repositorio de tu website debes hacer el paso 1 de la guía de este <a href="https://pages.github.com/">link</a>. Los demás pasos los veremos más adelante. Si necesitas una mejor explicación del paso 1, este <a href="https://help.github.com/articles/create-a-repo/">link</a> prevé una guía de 6 pasos más&nbsp;completa.</p>
+<p>Lo importante es que tu repositorio sea nombrado de esta forma <em>username</em>.github.io, donde <em>username</em> es el nombre de usuario en&nbsp;GitHub.</p>
+<h2 id="instalar-git">Instalar&nbsp;Git</h2>
+<p>Para instalar git tenés que dirigirte a este <a href="https://git-scm.com/downloads">link</a>. Deberás elegir entre los diferentes <span class="caps">OS</span>&nbsp;disponibles:</p>
+<ul>
+<li><a href="https://git-scm.com/download/linux">Linux</a>  </li>
+<li><a href="https://git-scm.com/download/linux">Solaris</a>  </li>
+<li><a href="https://git-scm.com/download/mac"><span class="caps">MAC</span> OS&nbsp;X</a>  </li>
+<li><a href="https://git-scm.com/download/win">Windows</a>  </li>
+</ul>
+<p>En los links anteriores se encuentra la guía necesaria del proceso de instalación de cada&nbsp;<span class="caps">OS</span>.</p>
+<h1 id="wintersmith">Wintersmith</h1>
+<p>Wintersmith es un generador de sitios estáticos muy flexile. Para instalarlo es&nbsp;necesario:</p>
+<ul>
+<li>Instalar&nbsp;Node.js</li>
+<li>Instalar&nbsp;npm</li>
+<li>Instalar&nbsp;Wintersmith</li>
+</ul>
+<p>Node.js es una plataforma para desarrollar software, Wintersmith está desarrollado en Node.js y podemos descargar e instalar el proyecto utilizando el gestor de paquetes&nbsp;npm.</p>
+<h2 id="instalar-node-js-y-npm">Instalar Node.js y&nbsp;npm</h2>
+<p>Node.js es un runtime environment en Javascript, multiplataforma y basado en motor V8 de Chrome. Npm es el gestor de paquetes de&nbsp;Node.js. </p>
+<p>Para instalar Node.js tenés que dirigirte a este <a href="https://nodejs.org/en/download/">link</a> </p>
+<h2 id="instalar-wintersmith">Instalar&nbsp;Wintersmith</h2>
+<p>Para instalar Wintersmith es necesario abrir la consola o terminal y&nbsp;ejecutar:</p>
+<pre><code class="lang-bash">$ npm install wintersmith -g
+</code></pre>
+<p>El comando anterior es muy simple <em>npm</em> indica que se va a utilizar npm, <em>install</em> indica que se va a instalar un paquete, <em>wintersmith</em> indica el nombre del paquete que se va a instalar usando npm y la opción <em>-g</em> indica que el paquete será instalado en un contexto global y podrá ser accedido desde cualquier&nbsp;directorio.</p>
+<h1 id="crear-el-website">Crear el&nbsp;website</h1>
+<p>Para crear nuestro proyecto es necesario&nbsp;ejecutar:</p>
+<pre><code class="lang-bash">$ wintersmith new &lt;path&gt;
+</code></pre>
+<p>Donde <em>wintersmith</em> indica que se utilizará ese comando, <em>new</em> indica que será un nuevo proyecto y <em>path</em> es la ruta al directorio donde el proyecto va a ser&nbsp;generado.</p>
+<p>Para probar tu proyecto debes ejecutar los siguientes&nbsp;comandos:</p>
+<pre><code class="lang-bash">$ <span class="built_in">cd</span> &lt;path&gt;
+</code></pre>
+<p>Donde <em>path</em> es la ruta a tu proyecto. Luego debes ejecutar el siguiente comando para construir el&nbsp;website:</p>
+<pre><code class="lang-bash">$ wintersmith build
+</code></pre>
+<p>Con el siguiente comando vas a levantar tu website en un servidor local en tu&nbsp;<span class="caps">PC</span>:</p>
+<pre><code class="lang-bash">$ wintersmith preview
+</code></pre>
+<p>Ahora debes abrir el browser que tengas instalado en tu <span class="caps">PC</span> y escribir la siguiente url <a href="http://localhost:8080/">http://localhost:8080/</a>.</p>
+<p>Lo que vas a observar es un website de ejemplo con algunos artículos ya creados y&nbsp;definidos.</p>
+<h1 id="estructura-del-proyecto">Estructura del&nbsp;proyecto</h1>
+<p>En el directorio <code>build/</code> se encuentra el website generado y en <code>contents/articles/</code> se alojan los artículos que vayas a escribir en tu&nbsp;website.</p>
+<h1 id="crear-un-art-culo">Crear un&nbsp;artículo</h1>
+<p>Debes crear un directorio dentro del directorio <code>contents/articles/</code> con el nombre de tu artículo sin espacios por ejemplo <code>my-first-post/</code>, por lo tanto vas a obtener la siguente estructura <code>contents/my-first-post/</code>.</p>
+<p>Dentro del directorio <code>contents/my-first-post/</code> debes crear un archivo llamado <code>index.md</code>. En este archivo se escribirá el contenido de tu&nbsp;artículo.</p>
+<p>Lo primero que debes escribir en el archivo <code>index.md</code> es lo&nbsp;siguiente:</p>
+<pre><code class="lang-markdown"><span class="horizontal_rule">---</span>
+title: My first post
+date: 2015-10-08 12:10
+author: Román Riquelme
+<span class="header">template: article.jade
+---</span>
+</code></pre>
+<p><em>title</em> es el título de tu artículo, en este caso <em>My first post</em>. <em>title</em> es la fecha de publicación de tu artículo, en este caso <em>2015-10-08 12:10</em>, <em>author</em> es el autor del artículo, en este caso <em>Román Riquelme</em> y <em>template</em> es la plantilla que se ve a utilizar, en este caso <em>article.jade</em>.</p>
+<p>A partir de aquí deberás crear el contenido de tu artículo, podrás insertar imágenes, links, crear tablas, listas, utilizar jerarquias de títulos, etc. Para esto Wintersmith utiliza Markdown que es una forma simple de escribir código <span class="caps">HTML</span> para web. Para obtener una guía básica de como escribir Markdown tenés que dirigirte a este <a href="https://help.github.com/articles/markdown-basics/">link</a>.</p>
+<h1 id="publicar-el-website-en-github-pages">Publicar el website en GitHub&nbsp;Pages</h1>
+<p>En primer lugar deberas abrir tu consola o terminal y dirigirte al directorio <code>build/</code> de tu&nbsp;proyecto:</p>
+<pre><code class="lang-bash">$ <span class="built_in">cd</span> &lt;path-to-project&gt;/build
+</code></pre>
+<p>Luego es necesario inicializar un repositorio git dentro del directorio, debes&nbsp;ejecutar:</p>
+<pre><code class="lang-bash">$ git init
+</code></pre>
+<p>A continuación debes agregar el repositorio remoto que fue creado en GitHub, debes&nbsp;ejecutar:</p>
+<pre><code class="lang-bash">$ git remote add origin git@github.com:username/username.github.io.git
+</code></pre>
+<p><em>username</em> es el nombre de usuario de la cuenta de&nbsp;github.</p>
+<p>En este momento ya tenemos conectados el repositorio local con el repositorio alojado en GitHub. Por lo tanto, los dos comandos anteriores solo son necesarios de ejecutar la primera&nbsp;vez.</p>
+<p>El siguiente paso es agregar nuestros archivos al staging area de Git.&nbsp;Ejecutar:</p>
+<pre><code class="lang-bash">$ git add --all
+</code></pre>
+<p>A continuación se deberán agregar los archivos que están en staging area al project history.&nbsp;Ejecutar:</p>
+<pre><code class="lang-bash">$ git commit -m <span class="string">"Comment about changes"</span>
+</code></pre>
+<p>Debes incluir un comentario que indique que cambios vas a introducir al historial de git. El comentario es personal y es importante que sea preciso, de esta amanera nos ayuda a saber que es lo que&nbsp;hicimos.</p>
+<p>Por último debes publicar los cambios en el repositorio remoto en GitHub. Debes&nbsp;ejecutar:</p>
+<pre><code class="lang-bash">$ git push
+</code></pre>
+<p>Ahora tus cambios están en el repositorio remoto y el website ya está disponible para ser accedido en la web mediante la url de tu website, por ejemplo <a href="http://username.github.io/">http://username.github.io/</a>.</p>
+<h1 id="lista-de-pasos-del-tutorial">Lista de pasos del&nbsp;tutorial</h1>
+<p>A continuación se ecuentra la lista de tareas y procedimientos que debes seguir para tener disponible tu website en&nbsp;internet.</p>
+<ul class="checklist custom-ul">
+    <li>
+        <input type="checkbox"> 
+        Crear una cuenta en&nbsp;GitHub
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Crear un repositorio en GitHub llamado <em>username</em>.github.io
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Instalar Git en tu&nbsp;<span class="caps">PC</span>
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Instalar Node.js y npm en tu&nbsp;<span class="caps">PC</span>
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Instalar Wintersmith en tu&nbsp;<span class="caps">PC</span>
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Crear tu proyecto utilizando&nbsp;Wintersmith
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Crear un artículo dentro del&nbsp;proyecto
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Crear un repositorio Git dentro del directorio <code>build/</code>
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Agregar el repositorio creado en GitHub al repositorio Git creado en tu&nbsp;<span class="caps">PC</span>
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Hacer un commit de los&nbsp;cambios
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Publicar los cambios en el repositorio de&nbsp;GitHub
+    </li>
+    <li>
+        <input type="checkbox"> 
+        Acceder al website mediante la <span class="caps">URL</span> del&nbsp;proyecto
+    </li>
+</ul></section>
+        </article><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a><br>
+        <p class="creativecommons">Esta obra de <a xmlns:cc="http://creativecommons.org/ns#" href="http://matipruvost.github.io/" property="cc:attributionName" rel="cc:attributionURL">Mati Pruvost</a> está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a></p>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <section class="about"><p>Mati Pruvost is made by <a href="https://ar.linkedin.com/in/matiaspruvost">Mati Pruvost</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2015 Mati Pruvost &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
