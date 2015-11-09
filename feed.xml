@@ -5,9 +5,61 @@
     <atom:link href="http://matipruvost.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://matipruvost.github.io/</link>
     <description>There are ideas to share · Hay ideas por compartir</description>
-    <pubDate>Sun, 18 Oct 2015 21:00:00 -0300</pubDate>
+    <pubDate>Sun, 08 Nov 2015 21:00:00 -0300</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Generadores Yeoman</title>
+      <link>http://matipruvost.github.io//articles/generators/</link>
+      <pubDate>Sun, 08 Nov 2015 21:00:00 -0300</pubDate>
+      <guid isPermaLink="true">http://matipruvost.github.io//articles/generators/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;a href=&quot;http://yeoman.io/&quot;&gt;Yeoman&lt;/a&gt; agiliza el inicio de un nuevo proyecto de software utilizando herramientas para facilitar el desempeño y productividad.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;-por-qu-utilizar-generadores-yeoman-&quot;&gt;¿Por qué utilizar generadores Yeoman?&lt;/h1&gt;
+&lt;p&gt;El objetivo principal de esta herramienta es construir la estructura del proyecto de software que estamos por iniciar. A este esqueleto se le denomina &lt;code&gt;scaffolding&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;La estructura que proporciona el generador sigue las ideas de patrones de diseño y buenas prácticas propias del lenguaje en el que estamos desarrollando. Por lo tanto, nos aseguramos que el proyecto de software se ubica dentro de una guía establecida y planificada. Es posible no incluir ciertas guías por el simple hecho de no conocerlas, de esta forma nos aseguramos de lo contrario.&lt;/p&gt;
+&lt;p&gt;Otro punto importante es agregar nuevas piezas de software al proyecto de manera automática. Posibilita incluir nuevos módulos evitando hacerlo de forma manual.&lt;/p&gt;
+&lt;p&gt;Incluir tareas automáticas es otra ventaja. Las tareas pueden ser compilar el proyecto para diferentes ambientes como &lt;code&gt;development&lt;/code&gt;, &lt;code&gt;testing&lt;/code&gt; o &lt;code&gt;production&lt;/code&gt;, ejecutar tests automáticos, crear documentación del proyecto e incluir nuevas librerías. &lt;/p&gt;
+&lt;h1 id=&quot;-qu-tipos-de-generadores-yeoman-hay-disponibles-&quot;&gt;¿Qué tipos de generadores Yeoman hay disponibles?&lt;/h1&gt;
+&lt;p&gt;La variedad de generadores es bastante amplia, existen aquellos desarrollados oficialmente por el equipo de Yeoman y otros por la comunidad.&lt;/p&gt;
+&lt;p&gt;A continuación algunos generadores de ejemplo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/DaftMonk/generator-angular-fullstack#readme&quot;&gt;generator-angular-fullstack&lt;/a&gt;: Crear aplicaciones MEAN, incluye MongoDB, Express, AngularJS y Node.  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/diegonetto/generator-ionic#readme&quot;&gt;generator-ionic&lt;/a&gt;: Crear aplicaciones Ionic utilizando AngularJS y Apache Cordova.  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yeoman/generator-chrome-extension#readme&quot;&gt;generator-chrome-extension&lt;/a&gt;: Crear extensiones para Chrome.  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yeoman/generator-polymer#readme&quot;&gt;generator-polymer&lt;/a&gt;: Crear aplicaciones utilizando la plataforma Polymer.  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yeoman/generator-generator#readme&quot;&gt;generator-generator&lt;/a&gt;: Crear generadores Yeoman.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para ver a la lista provista por el proyecto debes acceder a este &lt;a href=&quot;http://yeoman.io/generators/&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;requisitos&quot;&gt;Requisitos&lt;/h1&gt;
+&lt;p&gt;Los requisitos para instalar Yeoman son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Node.js.  &lt;/li&gt;
+&lt;li&gt;npm.  &lt;/li&gt;
+&lt;li&gt;bower.  &lt;/li&gt;
+&lt;li&gt;grunt.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;node-y-npm&quot;&gt;Node y npm&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org&quot;&gt;Node.js&lt;/a&gt; es un runtime environment en Javascript, multiplataforma y basado en motor V8 de Chrome. &lt;a href=&quot;https://www.npmjs.com/&quot;&gt;Npm&lt;/a&gt; es el gestor de paquetes de Node.js.&lt;/p&gt;
+&lt;p&gt;Para instalar Node.js y npm tenés que dirigirte a este &lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;link&lt;/a&gt; &lt;/p&gt;
+&lt;h2 id=&quot;bower&quot;&gt;Bower&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://bower.io/&quot;&gt;Bower&lt;/a&gt; es un gestor de paquetes optimizado para desarrollo front-end. Para instalar bower tenes que ejecutar el siguiente comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;$ npm install bower -g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;grunt&quot;&gt;Grunt&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt; es un gestor de tareas repetitivas. Para instalar grunt tenes que ejecutar el siguiente comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;$ npm install grunt-cli -g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;instalaci-n&quot;&gt;Instalación&lt;/h1&gt;
+&lt;p&gt;Para instalar yeoman tenes que ejecutar el siguiente comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;$ npm install yo -g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Luego tendrás que instalar el generador específico conveniente para tu idea, en el caso que quisieras empezar un proyecto MEAN, deberás ejecutar el siguiente comando:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;$ npm install generator-angular-fullstack -g
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     <item>
       <title>Wintersmith tutoriial</title>
       <link>http://matipruvost.github.io//articles/wintersmith-tutorial/</link>
@@ -31,7 +83,7 @@ Se necesita:&lt;/p&gt;
 &lt;h2 id=&quot;nueva-cuenta-en-github&quot;&gt;Nueva cuenta en GitHub&lt;/h2&gt;
 &lt;p&gt;Para crear una nueva cuenta en GitHub tenés que dirigirte a este &lt;a href=&quot;https://github.com/join&quot;&gt;link&lt;/a&gt;. Hay dos tipos de cuentas:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Free&lt;/em&gt;: Cantidad de proyectos públicos y colaboradores ilímitados.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Free&lt;/em&gt;: Cantidad de proyectos públicos y colaboradores ilimitados.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Enterprise&lt;/em&gt;: Crear proyectos privados.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Esta cuenta te servirá para alojar tu proyecto en un repositorio Git y para acceder al servicio de GitHub Pages.&lt;/p&gt;
@@ -48,7 +100,7 @@ Se necesita:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;En los links anteriores se encuentra la guía necesaria del proceso de instalación de cada OS.&lt;/p&gt;
 &lt;h1 id=&quot;wintersmith&quot;&gt;Wintersmith&lt;/h1&gt;
-&lt;p&gt;Wintersmith es un generador de sitios estáticos muy flexile. Para instalarlo es necesario:&lt;/p&gt;
+&lt;p&gt;Wintersmith es un generador de sitios estáticos muy flexible. Para instalarlo es necesario:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Instalar Node.js&lt;/li&gt;
 &lt;li&gt;Instalar npm&lt;/li&gt;
@@ -82,7 +134,7 @@ Se necesita:&lt;/p&gt;
 &lt;h1 id=&quot;estructura-del-proyecto&quot;&gt;Estructura del proyecto&lt;/h1&gt;
 &lt;p&gt;En el directorio &lt;code&gt;build/&lt;/code&gt; se encuentra el website generado y en &lt;code&gt;contents/articles/&lt;/code&gt; se alojan los artículos que vayas a escribir en tu website.&lt;/p&gt;
 &lt;h1 id=&quot;crear-un-art-culo&quot;&gt;Crear un artículo&lt;/h1&gt;
-&lt;p&gt;Debes crear un directorio dentro del directorio &lt;code&gt;contents/articles/&lt;/code&gt; con el nombre de tu artículo sin espacios por ejemplo &lt;code&gt;my-first-post/&lt;/code&gt;, por lo tanto vas a obtener la siguente estructura &lt;code&gt;contents/my-first-post/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Debes crear un directorio dentro del directorio &lt;code&gt;contents/articles/&lt;/code&gt; con el nombre de tu artículo sin espacios por ejemplo &lt;code&gt;my-first-post/&lt;/code&gt;, por lo tanto vas a obtener la siguiente estructura &lt;code&gt;contents/my-first-post/&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Dentro del directorio &lt;code&gt;contents/my-first-post/&lt;/code&gt; debes crear un archivo llamado &lt;code&gt;index.md&lt;/code&gt;. En este archivo se escribirá el contenido de tu artículo.&lt;/p&gt;
 &lt;p&gt;Lo primero que debes escribir en el archivo &lt;code&gt;index.md&lt;/code&gt; es lo siguiente:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-markdown&quot;&gt;&lt;span class=&quot;horizontal_rule&quot;&gt;---&lt;/span&gt;
@@ -93,9 +145,9 @@ author: Román Riquelme
 ---&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;em&gt;title&lt;/em&gt; es el título de tu artículo, en este caso &lt;em&gt;My first post&lt;/em&gt;. &lt;em&gt;title&lt;/em&gt; es la fecha de publicación de tu artículo, en este caso &lt;em&gt;2015-10-08 12:10&lt;/em&gt;, &lt;em&gt;author&lt;/em&gt; es el autor del artículo, en este caso &lt;em&gt;Román Riquelme&lt;/em&gt; y &lt;em&gt;template&lt;/em&gt; es la plantilla que se ve a utilizar, en este caso &lt;em&gt;article.jade&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;A partir de aquí deberás crear el contenido de tu artículo, podrás insertar imágenes, links, crear tablas, listas, utilizar jerarquias de títulos, etc. Para esto Wintersmith utiliza Markdown que es una forma simple de escribir código HTML para web. Para obtener una guía básica de como escribir Markdown tenés que dirigirte a este &lt;a href=&quot;https://help.github.com/articles/markdown-basics/&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A partir de aquí deberás crear el contenido de tu artículo, podrás insertar imágenes, links, crear tablas, listas, utilizar jerarquías de títulos, etc. Para esto Wintersmith utiliza Markdown que es una forma simple de escribir código HTML para web. Para obtener una guía básica de como escribir Markdown tenés que dirigirte a este &lt;a href=&quot;https://help.github.com/articles/markdown-basics/&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&quot;publicar-el-website-en-github-pages&quot;&gt;Publicar el website en GitHub Pages&lt;/h1&gt;
-&lt;p&gt;En primer lugar deberas abrir tu consola o terminal y dirigirte al directorio &lt;code&gt;build/&lt;/code&gt; de tu proyecto:&lt;/p&gt;
+&lt;p&gt;En primer lugar deberás abrir tu consola o terminal y dirigirte al directorio &lt;code&gt;build/&lt;/code&gt; de tu proyecto:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;$ &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &amp;lt;path-to-project&amp;gt;/build
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Luego es necesario inicializar un repositorio git dentro del directorio, debes ejecutar:&lt;/p&gt;
@@ -118,7 +170,7 @@ author: Román Riquelme
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Ahora tus cambios están en el repositorio remoto y el website ya está disponible para ser accedido en la web mediante la url de tu website, por ejemplo &lt;a href=&quot;http://username.github.io/&quot;&gt;http://username.github.io/&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&quot;lista-de-pasos-del-tutorial&quot;&gt;Lista de pasos del tutorial&lt;/h1&gt;
-&lt;p&gt;A continuación se ecuentra la lista de tareas y procedimientos que debes seguir para tener disponible tu website en internet.&lt;/p&gt;
+&lt;p&gt;A continuación se encuentra la lista de tareas y procedimientos que debes seguir para tener disponible tu website en internet.&lt;/p&gt;
 &lt;ul class=&quot;checklist custom-ul&quot;&gt;
     &lt;li&gt;
         &lt;input type=&quot;checkbox&quot;&gt; 

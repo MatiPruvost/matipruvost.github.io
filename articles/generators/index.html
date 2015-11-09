@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Generadores Yeoman - Mati Pruvost
+    </title>
+    <link rel="alternate" href="http://matipruvost.github.io//feed.xml" type="application/rss+xml" title="There are ideas to share · Hay ideas por compartir">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/mp.css">
+    <link rel="icon" type="image/icon" href="/logo.svg">
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-68568287-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Generadores Yeoman</h1>
+        <p class="author">Written by <span class="author">Mati Pruvost</span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p><a href="http://yeoman.io/">Yeoman</a> agiliza el inicio de un nuevo proyecto de software utilizando herramientas para facilitar el desempeño y&nbsp;productividad.</p>
+<p><span class="more"></span></p>
+<h1 id="-por-qu-utilizar-generadores-yeoman-">¿Por qué utilizar generadores&nbsp;Yeoman?</h1>
+<p>El objetivo principal de esta herramienta es construir la estructura del proyecto de software que estamos por iniciar. A este esqueleto se le denomina <code>scaffolding</code>. </p>
+<p>La estructura que proporciona el generador sigue las ideas de patrones de diseño y buenas prácticas propias del lenguaje en el que estamos desarrollando. Por lo tanto, nos aseguramos que el proyecto de software se ubica dentro de una guía establecida y planificada. Es posible no incluir ciertas guías por el simple hecho de no conocerlas, de esta forma nos aseguramos de lo&nbsp;contrario.</p>
+<p>Otro punto importante es agregar nuevas piezas de software al proyecto de manera automática. Posibilita incluir nuevos módulos evitando hacerlo de forma&nbsp;manual.</p>
+<p>Incluir tareas automáticas es otra ventaja. Las tareas pueden ser compilar el proyecto para diferentes ambientes como <code>development</code>, <code>testing</code> o <code>production</code>, ejecutar tests automáticos, crear documentación del proyecto e incluir nuevas&nbsp;librerías. </p>
+<h1 id="-qu-tipos-de-generadores-yeoman-hay-disponibles-">¿Qué tipos de generadores Yeoman hay&nbsp;disponibles?</h1>
+<p>La variedad de generadores es bastante amplia, existen aquellos desarrollados oficialmente por el equipo de Yeoman y otros por la&nbsp;comunidad.</p>
+<p>A continuación algunos generadores de&nbsp;ejemplo:</p>
+<ul>
+<li><a href="https://github.com/DaftMonk/generator-angular-fullstack#readme">generator-angular-fullstack</a>: Crear aplicaciones <span class="caps">MEAN</span>, incluye MongoDB, Express, AngularJS y&nbsp;Node.  </li>
+<li><a href="https://github.com/diegonetto/generator-ionic#readme">generator-ionic</a>: Crear aplicaciones Ionic utilizando AngularJS y Apache&nbsp;Cordova.  </li>
+<li><a href="https://github.com/yeoman/generator-chrome-extension#readme">generator-chrome-extension</a>: Crear extensiones para&nbsp;Chrome.  </li>
+<li><a href="https://github.com/yeoman/generator-polymer#readme">generator-polymer</a>: Crear aplicaciones utilizando la plataforma&nbsp;Polymer.  </li>
+<li><a href="https://github.com/yeoman/generator-generator#readme">generator-generator</a>: Crear generadores&nbsp;Yeoman.  </li>
+</ul>
+<p>Para ver a la lista provista por el proyecto debes acceder a este <a href="http://yeoman.io/generators/">link</a>.</p>
+<h1 id="requisitos">Requisitos</h1>
+<p>Los requisitos para instalar Yeoman&nbsp;son:</p>
+<ul>
+<li>Node.js.  </li>
+<li>npm.  </li>
+<li>bower.  </li>
+<li>grunt.  </li>
+</ul>
+<h2 id="node-y-npm">Node y&nbsp;npm</h2>
+<p><a href="https://nodejs.org">Node.js</a> es un runtime environment en Javascript, multiplataforma y basado en motor V8 de Chrome. <a href="https://www.npmjs.com/">Npm</a> es el gestor de paquetes de&nbsp;Node.js.</p>
+<p>Para instalar Node.js y npm tenés que dirigirte a este <a href="https://nodejs.org/en/download/">link</a> </p>
+<h2 id="bower">Bower</h2>
+<p><a href="http://bower.io/">Bower</a> es un gestor de paquetes optimizado para desarrollo front-end. Para instalar bower tenes que ejecutar el siguiente&nbsp;comando:</p>
+<pre><code class="lang-bash">$ npm install bower -g
+</code></pre>
+<h2 id="grunt">Grunt</h2>
+<p><a href="http://gruntjs.com/">Grunt</a> es un gestor de tareas repetitivas. Para instalar grunt tenes que ejecutar el siguiente&nbsp;comando:</p>
+<pre><code class="lang-bash">$ npm install grunt-cli -g
+</code></pre>
+<h1 id="instalaci-n">Instalación</h1>
+<p>Para instalar yeoman tenes que ejecutar el siguiente&nbsp;comando:</p>
+<pre><code class="lang-bash">$ npm install yo -g
+</code></pre>
+<p>Luego tendrás que instalar el generador específico conveniente para tu idea, en el caso que quisieras empezar un proyecto <span class="caps">MEAN</span>, deberás ejecutar el siguiente&nbsp;comando:</p>
+<pre><code class="lang-bash">$ npm install generator-angular-fullstack -g
+</code></pre>
+</section>
+        </article><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a><br>
+        <p class="creativecommons">Esta obra de <a xmlns:cc="http://creativecommons.org/ns#" href="http://matipruvost.github.io/" property="cc:attributionName" rel="cc:attributionURL">Mati Pruvost</a> está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a></p>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <section class="about"><p>Mati Pruvost is made by <a href="https://ar.linkedin.com/in/matiaspruvost">Mati Pruvost</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2015 Mati Pruvost &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
