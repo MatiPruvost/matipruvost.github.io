@@ -137,12 +137,12 @@ Se necesita:&lt;/p&gt;
 &lt;p&gt;Debes crear un directorio dentro del directorio &lt;code&gt;contents/articles/&lt;/code&gt; con el nombre de tu artículo sin espacios por ejemplo &lt;code&gt;my-first-post/&lt;/code&gt;, por lo tanto vas a obtener la siguiente estructura &lt;code&gt;contents/my-first-post/&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Dentro del directorio &lt;code&gt;contents/my-first-post/&lt;/code&gt; debes crear un archivo llamado &lt;code&gt;index.md&lt;/code&gt;. En este archivo se escribirá el contenido de tu artículo.&lt;/p&gt;
 &lt;p&gt;Lo primero que debes escribir en el archivo &lt;code&gt;index.md&lt;/code&gt; es lo siguiente:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-markdown&quot;&gt;&lt;span class=&quot;horizontal_rule&quot;&gt;---&lt;/span&gt;
-title: My first post
-date: 2015-10-08 12:10
-author: Román Riquelme
-&lt;span class=&quot;header&quot;&gt;template: article.jade
----&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-markdown&quot;&gt; ---
+ title: My first post
+ date: 2015-10-08 12:10
+ author: Román Riquelme
+ template: article.jade
+ ---
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;em&gt;title&lt;/em&gt; es el título de tu artículo, en este caso &lt;em&gt;My first post&lt;/em&gt;. &lt;em&gt;title&lt;/em&gt; es la fecha de publicación de tu artículo, en este caso &lt;em&gt;2015-10-08 12:10&lt;/em&gt;, &lt;em&gt;author&lt;/em&gt; es el autor del artículo, en este caso &lt;em&gt;Román Riquelme&lt;/em&gt; y &lt;em&gt;template&lt;/em&gt; es la plantilla que se ve a utilizar, en este caso &lt;em&gt;article.jade&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;A partir de aquí deberás crear el contenido de tu artículo, podrás insertar imágenes, links, crear tablas, listas, utilizar jerarquías de títulos, etc. Para esto Wintersmith utiliza Markdown que es una forma simple de escribir código HTML para web. Para obtener una guía básica de como escribir Markdown tenés que dirigirte a este &lt;a href=&quot;https://help.github.com/articles/markdown-basics/&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;

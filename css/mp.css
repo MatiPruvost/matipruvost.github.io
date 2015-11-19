@@ -25,3 +25,54 @@ td:nth-child(1) {
 .custom-ul{
 	margin: 0 1em 1.4em 2em;
 }
+
+
+/* Hide element*/
+.hide{
+	display: none;
+}
+
+.header {
+  background: #f8f8f8;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+/* Scrolled and resized Header*/
+.smaller{
+  position: fixed;
+  background: #f8f8f8;
+  margin: inherit;
+  margin-bottom: inherit;
+  box-shadow: 0px 0.1px 10px #ccc;
+}
+
+/* Scrolled and resized header Title*/
+.smaller > .content-wrap > h1{
+	text-align: left;
+	font-size: 1.5em;
+}
+
+/* Scrolled and resized header Author*/
+.smaller > .content-wrap > p{
+	text-align: left;
+	margin-bottom: inherit;
+}
+
+#content{ 
+  /*margin-top: 11em;*/
+}
+
+.smaller-content{ 
+  /*margin-top: 10em!important;*/
+}
+
+.smaller > .content-wrap > div{
+	display: inherit;
+}
+
+/* Share icon header */
+.share-icon{
+	margin-right: 1em;
+}
