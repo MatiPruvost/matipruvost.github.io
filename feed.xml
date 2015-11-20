@@ -16,6 +16,11 @@
       <author></author>
       <description>&lt;p&gt;&lt;a href=&quot;http://yeoman.io/&quot;&gt;Yeoman&lt;/a&gt; agiliza el inicio de un nuevo proyecto de software utilizando herramientas para facilitar el desempeño y productividad.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/generators/yeoman.jpg&quot; alt=&quot;Yeoman&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;caption&quot;&gt;
+&lt;a href=&quot;https://www.flickr.com/photos/byzantiumbooks/14922961157/in/photolist-oJG5rK-6qQXEa-vwxKjc-ptcF3N-pveNWB-bwJZVn-87AFRa-5ywmUk-ptcEZb-eFavYN-sDJq9E-eF4pCg-pvV5u9-omYtzj-kxekPP-oeB3Db-rBQTpW-erLBS-t3RkB-6JQNZa-oK9GLV-oCeM84-oX2Qgv-w2VyFJ-x7StvE-qAoaRE-pesoYQ-8qx6WA-7zVkFT-okgAF4-isEhpF-6E1DcH-7prqaA-puXyn4-iv7zdg-uno5ZS-aqqhHP-efbr2B-efbqM6-efbqxe-rtwf9K-df3qB8-df3q4i-df3p9d-6uqxAG-rUiCLS-8GGqqA-7jVQWa-3npWM1-87Av8X&quot;&gt;Yeoman Warder Merry&lt;/a&gt; by &lt;a href=&quot;https://www.flickr.com/photos/byzantiumbooks/&quot;&gt;Bill Smith&lt;/a&gt; is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/&quot;&gt;CC BY 2.0&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;h1 id=&quot;-por-qu-utilizar-generadores-yeoman-&quot;&gt;¿Por qué utilizar generadores Yeoman?&lt;/h1&gt;
 &lt;p&gt;El objetivo principal de esta herramienta es construir la estructura del proyecto de software que estamos por iniciar. A este esqueleto se le denomina &lt;code&gt;scaffolding&lt;/code&gt;. &lt;/p&gt;
 &lt;p&gt;La estructura que proporciona el generador sigue las ideas de patrones de diseño y buenas prácticas propias del lenguaje en el que estamos desarrollando. Por lo tanto, nos aseguramos que el proyecto de software se ubica dentro de una guía establecida y planificada. Es posible no incluir ciertas guías por el simple hecho de no conocerlas, de esta forma nos aseguramos de lo contrario.&lt;/p&gt;
@@ -61,12 +66,13 @@
 </description>
     </item>
     <item>
-      <title>Wintersmith tutoriial</title>
+      <title>Wintersmith tutorial</title>
       <link>http://matipruvost.github.io//articles/wintersmith-tutorial/</link>
       <pubDate>Sun, 18 Oct 2015 21:00:00 -0300</pubDate>
       <guid isPermaLink="true">http://matipruvost.github.io//articles/wintersmith-tutorial/</guid>
       <author></author>
       <description>&lt;p&gt;Guía completa para generar un blog utilizando &lt;a href=&quot;http://wintersmith.io/&quot;&gt;Wintersmith&lt;/a&gt; y &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/wintersmith-tutorial/coding.png&quot; alt=&quot;Coding&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;github-pages&quot;&gt;GitHub Pages&lt;/h1&gt;
 &lt;p&gt;Con GitHub pages es posible crear un website personal rápidamente.
@@ -290,6 +296,11 @@ Se necesita:&lt;/p&gt;
       <author></author>
       <description>&lt;p&gt;Toda escalera tiene su primer escalón, cada canción tiene su primer estrofa y cada blog tiene su primer artículo.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/hello-world/hello-world.jpg&quot; alt=&quot;Hello world&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;caption&quot;&gt;
+&lt;a href=&quot;https://www.flickr.com/photos/siraf72/11272718795/in/photolist-ib8CyB-c9BGhf-8eACTC-5DADYm-4NxfFo-nAtHNb-HHxEs-7keysk-fr1jLv-4dV7Zn-9gpVUx-iFm73e-7nwfyR-8Cwdw9-9Pf8wU-72j5ow-a4RDRP-9tH5tM-3Vyqee-edMm9h-dDhwTs-712M7K-csDo1y-92m4a3-3Vymk8-9h2Uws-a4WtsX-tDtTkn-7w8rYv-preEJf-3no74L-bmJYvZ-8WCih-8gQYPW-ABXSmf-eKZJ9L-8V9uq-eKZK5q-cDwqPw-8gpMLi-u4JdhW-8ghHwH-4kXef5-8jsNt-8YiJtb-8giCuZ-8gnkuJ-8gowp5-8goSHS-8goNZW&quot;&gt;Hello World&lt;/a&gt; by &lt;a href=&quot;https://www.flickr.com/photos/siraf72/&quot;&gt;Faris Algosaibi&lt;/a&gt; is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/&quot;&gt;CC BY 2.0&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Empiezo este humilde proyecto con la idea de compartir ideas y experiencias,  en su mayoría serán relacionadas al software, sin embargo habrá lugar para un poco de música e historias.&lt;/p&gt;
 &lt;p&gt;Estuve investigando las posibilidades y herramientas disponibles para mantener un blog, claramente, hay muchas y muy geniales. &lt;/p&gt;
 &lt;p&gt;Elegí &lt;a href=&quot;http://wintersmith.io/&quot;&gt;Wintersmith&lt;/a&gt; como generador de blogs estáticos y &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; para almacenar el contenido. En otro artículo voy a contar sobre esta elección.&lt;/p&gt;
