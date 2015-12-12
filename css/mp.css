@@ -27,7 +27,9 @@ td:nth-child(1) {
 }
 
 img{
-object-fit: cover;
+  object-fit: cover;
+  background-image: url("background-img.png");
+  background-repeat: repeat-y repeat-x;
 }
 
 /* Image caption */
