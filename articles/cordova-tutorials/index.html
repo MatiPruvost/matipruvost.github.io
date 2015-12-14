@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>¿Cómo empezar con Apache Cordova? - Mati Pruvost
+    </title>
+    <link rel="alternate" href="http://matipruvost.github.io//feed.xml" type="application/rss+xml" title="There are ideas to share · Hay ideas por compartir">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/mp.css">
+    <link rel="icon" type="image/icon" href="/logo.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-68568287-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>$(function() {
+  var window_ = $(window).height();
+  var body = $("body").height();
+  if(window_ < body){
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 10) {
+        $(".header").addClass('smaller');
+        $("#content").addClass('smaller-content');
+        var headerHeight = $('.header').height();
+        var headerMarginBottom = parseInt($(".header").css("margin-bottom"),10);
+        var headerMarginTop = parseInt($(".header").css("margin-top"),10);
+        var contentMarginTop = headerHeight + headerMarginBottom;
+        $("#content").css("margin-top", contentMarginTop+"px");
+      } else {
+        $(".header").removeClass("smaller");
+        $("#content").removeClass("smaller-content");
+        $("#content").css("margin-top", "inherit");
+      }
+    })
+  }
+});
+    </script>
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>¿Cómo empezar con Apache Cordova?</h1>
+        <p class="author">Written by <span class="author">Mati Pruvost</span>
+        </p>
+        <div class="hide"><a target="_blank" href="http://www.facebook.com/share.php?u=http://matipruvost.github.io//articles/cordova-tutorials/"><i class="fa fa-facebook share-icon"></i></a><a target="_blank" href="http://twitter.com/share?text=¿Cómo empezar con Apache Cordova?&amp;url=http://matipruvost.github.io//articles/cordova-tutorials/"><i class="fa fa-twitter share-icon"></i></a><a target="_blank" href="https://www.linkedin.com/cws/share?url=http://matipruvost.github.io//articles/cordova-tutorials/"><i class="fa fa-linkedin share-icon"></i></a></div>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>¡Felicitaciones! Estás interesado en aprender algo nuevo, los objetivos de superación y aprendizaje no son triviales, por lo tanto, este artículo te va a ayudar en el&nbsp;proceso.  </p>
+<p><span class="more"></span></p>
+<p><img src="/articles/cordova-tutorials/develop.jpg" alt="Develop"></p>
+<div class="caption">
+<a href="https://unsplash.com/photos/wnShDP37vB4">This photo</a> by <a href="https://unsplash.com/lukechesser">Luke Chesser</a> is licensed under <a href="http://creativecommons.org/publicdomain/zero/1.0/"><span class="caps">CC0</span> 1.0</a>
+</div>
+
+<p><a href="http://cordova.apache.org/">Apache Cordova</a> es un framework para el desarrollo de aplicaciones móviles utilizando tecnologías web como <span class="caps">HTML</span>, CSS y Javascript. Las aplicaciones pueden ser creadas independientemente de la plataforma móvil y acceder a los componentes nativos de los&nbsp;dispositivos.</p>
+<p>Para colaborar con tu aprendizaje sobre el framework, organicé esta lista de links con información de diferentes fuentes. Espero que pueda serte útil, también se irá actualizando a medida que descubra nuevo contenido&nbsp;potencial.</p>
+<h1 id="instalaci-n">Instalación</h1>
+<p>Los siguientes enlances son guías que te van a ayudar a instalar Cordova en diferentes&nbsp;<span class="caps">OS</span>.</p>
+<h2 id="windows">Windows</h2>
+<ul>
+<li><a href="http://helibertoarias.com/movil/instalar-apache-cordova-en-windows/">Instalar Apache Cordova en&nbsp;Windows</a>  </li>
+<li><a href="https://medium.com/tecnologia-digital/como-instalar-nodejs-en-windows-158fd6a1f13#.em3neg8jd">¿Cómo instalar Apache Cordova en&nbsp;Windows?</a>  </li>
+</ul>
+<h2 id="linux">Linux</h2>
+<ul>
+<li><a href="https://evothings.com/doc/build/cordova-install-linux.html">Installing Cordova on&nbsp;Linux</a>  </li>
+<li><a href="https://rolandocaldas.com/android/instalar-cordova-en-ubuntu">Instalar Cordova en&nbsp;Ubuntu</a>  </li>
+</ul>
+<h2 id="mac-os-x">Mac <span class="caps">OS</span>&nbsp;X</h2>
+<ul>
+<li><a href="http://www.tierra0.com/instalar-phonegapcordova-en-mac-osx/">Instalar Phonegap/Cordova en Mac&nbsp;<span class="caps">OSX</span></a>  </li>
+<li><a href="https://evothings.com/doc/build/cordova-install-osx.html">Installing Cordova and SDKs on <span class="caps">OS</span>&nbsp;X</a>  </li>
+</ul>
+<h1 id="documentaci-n">Documentación</h1>
+<p>La documentación es las herramientas más valiosas en cualquier proyecto de software, importante que la tengas en&nbsp;cuenta.</p>
+<ul>
+<li><a href="https://cordova.apache.org/docs/es/5.4.0/guide/overview/index.html">Documentación&nbsp;oficial</a></li>
+</ul>
+<h1 id="tutoriales">Tutoriales</h1>
+<p>Una lista de tutoriales para avanzar con el desarrollo y el&nbsp;aprendizaje.</p>
+<ul>
+<li><a href="https://ccoenraets.github.io/cordova-tutorial/">Apache Cordova&nbsp;Tutorial</a>  </li>
+<li><a href="http://www.toptal.com/mobile/developing-mobile-applications-with-apache-cordova">Apache Cordova Tutorial: Developing Mobile Applications with&nbsp;Cordova</a>  </li>
+<li><a href="http://prideparrot.com/blog/archive/2015/8/how_to_create_an_awesome_hybrid_mobile_app">How to create an awesome hybrid mobile app using Cordova - Part&nbsp;I</a></li>
+<li><a href="http://www.adictosaltrabajo.com/tutoriales/ionic-cordova-angularjs/">Desarrollo de aplicaciones móviles multiplataforma con Apache Cordova utilizando AngularJS, Ionic y&nbsp;ngCordova</a>  </li>
+</ul>
+<h1 id="plugins">Plugins</h1>
+<p>Los plugins son una extensión de software para acceder a los componentes nativos del teléfono. A continuación una lista para encontrar información y&nbsp;detalles.</p>
+<ul>
+<li><a href="https://cordova.apache.org/plugins/">Website&nbsp;oficial</a></li>
+<li><a href="http://plugins.telerik.com/cordova">Lista de plugins fuertemente documentados y&nbsp;testeados</a></li>
+<li><a href="http://plugreg.com/">Website para buscar&nbsp;plugins</a></li>
+</ul>
+<h1 id="debugging">Debugging</h1>
+<p>El proceso de debugging sirve para encontrar y resolver errores, esta lista es un conjunto de información que profundiza en el&nbsp;tema.</p>
+<ul>
+<li><a href="https://github.com/phonegap/phonegap/wiki/Debugging-in-PhoneGap">Debugging</a></li>
+<li><a href="http://geeklearning.io/apache-cordova-and-remote-debugging-on-android/">Debugging remoto en&nbsp;Android</a></li>
+<li><a href="http://phonegap-tips.com/articles/debugging-ios-phonegap-apps-with-safaris-web-inspector.html">Debugging con el Web Inspector de&nbsp;Safari</a></li>
+<li><a href="https://dzone.com/articles/debugging-android">Debugging con&nbsp;Chrome</a></li>
+<li><a href="http://stackoverflow.com/questions/21332853/is-there-a-real-solution-to-debug-cordova-apps">Entrada en&nbsp;Stackoverflow</a></li>
+</ul>
+<h1 id="-conos-y-splash-screen">Íconos y splash&nbsp;screen</h1>
+<p>Guía de tamaños de íconos y splash screen para las distintas&nbsp;plataformas.    </p>
+<ul>
+<li><a href="https://github.com/phonegap/phonegap/wiki/App-Icon-Sizes">íconos</a></li>
+<li><a href="https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes">splash&nbsp;screen</a></li>
+</ul>
+<h1 id="blogs">Blogs</h1>
+<p>Algunos blogs que publican contenido acerca de Cordova, te van a ayudar a estar en contacto con las&nbsp;novedades.</p>
+<ul>
+<li><a href="https://cordova.apache.org/blog/">Apache Cordova&nbsp;Blog</a>  </li>
+<li><a href="http://phonegap.com/blog/phonegap/">PhoneGap&nbsp;Blog</a></li>
+<li><a href="http://devgirl.org/">Devgirl’s&nbsp;Weblog</a>  </li>
+<li><a href="https://shazronatadobe.wordpress.com/">Shazron’s Cordova (aka PhoneGap)&nbsp;Blog</a>  </li>
+</ul>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <section class="about"><p>Mati Pruvost is made by <a href="https://ar.linkedin.com/in/matiaspruvost">Mati Pruvost</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2015 Mati Pruvost &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

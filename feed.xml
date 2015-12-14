@@ -5,9 +5,86 @@
     <atom:link href="http://matipruvost.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://matipruvost.github.io/</link>
     <description>There are ideas to share · Hay ideas por compartir</description>
-    <pubDate>Sun, 08 Nov 2015 21:00:00 -0300</pubDate>
+    <pubDate>Sun, 13 Dec 2015 21:00:00 -0300</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>¿Cómo empezar con Apache Cordova?</title>
+      <link>http://matipruvost.github.io//articles/cordova-tutorials/</link>
+      <pubDate>Sun, 13 Dec 2015 21:00:00 -0300</pubDate>
+      <guid isPermaLink="true">http://matipruvost.github.io//articles/cordova-tutorials/</guid>
+      <author></author>
+      <description>&lt;p&gt;¡Felicitaciones! Estás interesado en aprender algo nuevo, los objetivos de superación y aprendizaje no son triviales, por lo tanto, este artículo te va a ayudar en el proceso.  &lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/cordova-tutorials/develop.jpg&quot; alt=&quot;Develop&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;caption&quot;&gt;
+&lt;a href=&quot;https://unsplash.com/photos/wnShDP37vB4&quot;&gt;This photo&lt;/a&gt; by &lt;a href=&quot;https://unsplash.com/lukechesser&quot;&gt;Luke Chesser&lt;/a&gt; is licensed under &lt;a href=&quot;http://creativecommons.org/publicdomain/zero/1.0/&quot;&gt;CC0 1.0&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cordova.apache.org/&quot;&gt;Apache Cordova&lt;/a&gt; es un framework para el desarrollo de aplicaciones móviles utilizando tecnologías web como HTML, CSS y Javascript. Las aplicaciones pueden ser creadas independientemente de la plataforma móvil y acceder a los componentes nativos de los dispositivos.&lt;/p&gt;
+&lt;p&gt;Para colaborar con tu aprendizaje sobre el framework, organicé esta lista de links con información de diferentes fuentes. Espero que pueda serte útil, también se irá actualizando a medida que descubra nuevo contenido potencial.&lt;/p&gt;
+&lt;h1 id=&quot;instalaci-n&quot;&gt;Instalación&lt;/h1&gt;
+&lt;p&gt;Los siguientes enlances son guías que te van a ayudar a instalar Cordova en diferentes OS.&lt;/p&gt;
+&lt;h2 id=&quot;windows&quot;&gt;Windows&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://helibertoarias.com/movil/instalar-apache-cordova-en-windows/&quot;&gt;Instalar Apache Cordova en Windows&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/tecnologia-digital/como-instalar-nodejs-en-windows-158fd6a1f13#.em3neg8jd&quot;&gt;¿Cómo instalar Apache Cordova en Windows?&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;linux&quot;&gt;Linux&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://evothings.com/doc/build/cordova-install-linux.html&quot;&gt;Installing Cordova on Linux&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rolandocaldas.com/android/instalar-cordova-en-ubuntu&quot;&gt;Instalar Cordova en Ubuntu&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;mac-os-x&quot;&gt;Mac OS X&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.tierra0.com/instalar-phonegapcordova-en-mac-osx/&quot;&gt;Instalar Phonegap/Cordova en Mac OSX&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://evothings.com/doc/build/cordova-install-osx.html&quot;&gt;Installing Cordova and SDKs on OS X&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;documentaci-n&quot;&gt;Documentación&lt;/h1&gt;
+&lt;p&gt;La documentación es las herramientas más valiosas en cualquier proyecto de software, importante que la tengas en cuenta.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cordova.apache.org/docs/es/5.4.0/guide/overview/index.html&quot;&gt;Documentación oficial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;tutoriales&quot;&gt;Tutoriales&lt;/h1&gt;
+&lt;p&gt;Una lista de tutoriales para avanzar con el desarrollo y el aprendizaje.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ccoenraets.github.io/cordova-tutorial/&quot;&gt;Apache Cordova Tutorial&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.toptal.com/mobile/developing-mobile-applications-with-apache-cordova&quot;&gt;Apache Cordova Tutorial: Developing Mobile Applications with Cordova&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://prideparrot.com/blog/archive/2015/8/how_to_create_an_awesome_hybrid_mobile_app&quot;&gt;How to create an awesome hybrid mobile app using Cordova - Part I&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.adictosaltrabajo.com/tutoriales/ionic-cordova-angularjs/&quot;&gt;Desarrollo de aplicaciones móviles multiplataforma con Apache Cordova utilizando AngularJS, Ionic y ngCordova&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;plugins&quot;&gt;Plugins&lt;/h1&gt;
+&lt;p&gt;Los plugins son una extensión de software para acceder a los componentes nativos del teléfono. A continuación una lista para encontrar información y detalles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cordova.apache.org/plugins/&quot;&gt;Website oficial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://plugins.telerik.com/cordova&quot;&gt;Lista de plugins fuertemente documentados y testeados&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://plugreg.com/&quot;&gt;Website para buscar plugins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;debugging&quot;&gt;Debugging&lt;/h1&gt;
+&lt;p&gt;El proceso de debugging sirve para encontrar y resolver errores, esta lista es un conjunto de información que profundiza en el tema.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/phonegap/phonegap/wiki/Debugging-in-PhoneGap&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://geeklearning.io/apache-cordova-and-remote-debugging-on-android/&quot;&gt;Debugging remoto en Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://phonegap-tips.com/articles/debugging-ios-phonegap-apps-with-safaris-web-inspector.html&quot;&gt;Debugging con el Web Inspector de Safari&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dzone.com/articles/debugging-android&quot;&gt;Debugging con Chrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/21332853/is-there-a-real-solution-to-debug-cordova-apps&quot;&gt;Entrada en Stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;-conos-y-splash-screen&quot;&gt;Íconos y splash screen&lt;/h1&gt;
+&lt;p&gt;Guía de tamaños de íconos y splash screen para las distintas plataformas.    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/phonegap/phonegap/wiki/App-Icon-Sizes&quot;&gt;íconos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes&quot;&gt;splash screen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;blogs&quot;&gt;Blogs&lt;/h1&gt;
+&lt;p&gt;Algunos blogs que publican contenido acerca de Cordova, te van a ayudar a estar en contacto con las novedades.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cordova.apache.org/blog/&quot;&gt;Apache Cordova Blog&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://phonegap.com/blog/phonegap/&quot;&gt;PhoneGap Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://devgirl.org/&quot;&gt;Devgirl’s Weblog&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://shazronatadobe.wordpress.com/&quot;&gt;Shazron’s Cordova (aka PhoneGap) Blog&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     <item>
       <title>Generadores Yeoman</title>
       <link>http://matipruvost.github.io//articles/generators/</link>
