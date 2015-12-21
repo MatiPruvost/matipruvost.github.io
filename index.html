@@ -21,28 +21,29 @@
       ga('create', 'UA-68568287-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <script>$(function() {
-  var window_ = $(window).height();
-  var body = $("body").height();
-  if(window_ < body){
-    $(window).scroll(function() {
-      var scroll = $(window).scrollTop();
-      if (scroll >= 10) {
-        $(".header").addClass('smaller');
-        $("#content").addClass('smaller-content');
-        var headerHeight = $('.header').height();
-        var headerMarginBottom = parseInt($(".header").css("margin-bottom"),10);
-        var headerMarginTop = parseInt($(".header").css("margin-top"),10);
-        var contentMarginTop = headerHeight + headerMarginBottom;
-        $("#content").css("margin-top", contentMarginTop+"px");
-      } else {
-        $(".header").removeClass("smaller");
-        $("#content").removeClass("smaller-content");
-        $("#content").css("margin-top", "inherit");
-      }
-    })
-  }
-});
+    <script type="text/javascript">
+      $(function() {
+        var window_ = $(window).height();
+        var body = $("body").height();
+        if(window_ < body){
+          $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 10) {
+              $(".header").addClass('smaller');
+              $("#content").addClass('smaller-content');
+              var headerHeight = $('.header').height();
+              var headerMarginBottom = parseInt($(".header").css("margin-bottom"),10);
+              var headerMarginTop = parseInt($(".header").css("margin-top"),10);
+              var contentMarginTop = headerHeight + headerMarginBottom;
+              $("#content").css("margin-top", contentMarginTop+"px");
+            } else {
+              $(".header").removeClass("smaller");
+              $("#content").removeClass("smaller-content");
+              $("#content").css("margin-top", "inherit");
+            }
+          })
+        }
+      });
     </script>
   </head>
   <body>
@@ -56,6 +57,16 @@
     </header>
     <div id="content">
       <div class="content-wrap">
+        <article class="article intro">
+          <header>
+            <p class="date"><span>20. December 2015</span></p>
+            <h2><a href="/articles/albums-2015/">Los mejores lanzamientos del 2015</a></h2>
+          </header>
+          <section class="content"><p>Mi resumen de discos y releases lanzados en el 2015 en&nbsp;Spotify.</p>
+<p>
+            <p class="more"><a href="/articles/albums-2015/">more</a></p>
+          </section>
+        </article>
         <article class="article intro">
           <header>
             <p class="date"><span>14. December 2015</span></p>
@@ -74,16 +85,6 @@
           <section class="content"><p><a href="http://yeoman.io/">Yeoman</a> agiliza el inicio de un nuevo proyecto de software utilizando herramientas para facilitar el desempeño y&nbsp;productividad.</p>
 <p>
             <p class="more"><a href="/articles/generators/">more</a></p>
-          </section>
-        </article>
-        <article class="article intro">
-          <header>
-            <p class="date"><span>19. October 2015</span></p>
-            <h2><a href="/articles/wintersmith-tutorial/">Wintersmith tutorial</a></h2>
-          </header>
-          <section class="content"><p>Guía completa para generar un blog utilizando <a href="http://wintersmith.io/">Wintersmith</a> y <a href="https://pages.github.com/">GitHub Pages</a>.</p>
-<p>
-            <p class="more"><a href="/articles/wintersmith-tutorial/">more</a></p>
           </section>
         </article>
       </div>

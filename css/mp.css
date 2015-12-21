@@ -26,10 +26,14 @@ td:nth-child(1) {
 	margin: 0 1em 1.4em 2em;
 }
 
-img{
+img, .pre-background{
   object-fit: cover;
   background-image: url("background-img.png");
   background-repeat: repeat-y repeat-x;
+}
+
+.margin-bottom{
+  margin-bottom: 1.52em;
 }
 
 /* Image caption */
