@@ -5,9 +5,62 @@
     <atom:link href="http://matipruvost.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://matipruvost.github.io/</link>
     <description>There are ideas to share · Hay ideas por compartir</description>
-    <pubDate>Sun, 24 Jan 2016 21:00:00 -0300</pubDate>
+    <pubDate>Mon, 29 Feb 2016 21:00:00 -0300</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Image contrast</title>
+      <link>http://matipruvost.github.io//articles/image-contrast/</link>
+      <pubDate>Mon, 29 Feb 2016 21:00:00 -0300</pubDate>
+      <guid isPermaLink="true">http://matipruvost.github.io//articles/image-contrast/</guid>
+      <author></author>
+      <description>&lt;p&gt;¿Cómo agregar contraste a un grupo de imágenes automáticamente con &lt;a href=&quot;https://github.com/MatiPruvost/image-contrast&quot;&gt;image-contrast&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/image-contrast/contrast.png&quot; alt=&quot;Image contrast&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Hace un tiempo tuve la necesidad de aplicar contraste a un grupo de imágenes,
+cerca de 100 fotografías. Podía prescindir de un contraste especifico
+para cada fotografía en particular, por lo tanto, un nivel constante a cada
+imagen ya era suficiente.&lt;/p&gt;
+&lt;p&gt;Para manipular fotografías acostumbro a utilizar &lt;a href=&quot;https://www.gimp.org/&quot;&gt;Gimp&lt;/a&gt;,
+sin embargo, para este caso, era mejor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Correr un script que aplique un contraste a cada imagen automáticamente.&lt;/li&gt;
+&lt;li&gt;Las imágenes de origen estén alojadas en un directorio.&lt;/li&gt;
+&lt;li&gt;Las imágenes con contraste queden en otro directorio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Con esa idea simple comencé a agregar lineas de código al script, y como esquema
+simplificado tenía la siguiente propuesta:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/image-contrast/schema.png&quot; alt=&quot;Schema&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Después de unas horas surgió
+&lt;a href=&quot;https://github.com/MatiPruvost/image-contrast&quot;&gt;image-contrast&lt;/a&gt; que permite
+modificar el contraste de una serie de imágenes automáticamente con una sola
+línea de comando.&lt;/p&gt;
+&lt;p&gt;A continuación dejo una guía para trabajar con image-contrast.&lt;/p&gt;
+&lt;h1 id=&quot;instalar-requisitos&quot;&gt;Instalar requisitos&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;Node&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;instalaci-n&quot;&gt;Instalación&lt;/h1&gt;
+&lt;p&gt;Clonar el repositorio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$ git clone git@github.com:MatiPruvost/image-contrast.git&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instalar dependencias:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$ npm install&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;ejecutar-image-contrast&quot;&gt;Ejecutar image-contrast&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$ node index.js -i &amp;quot;directorio de entrada&amp;quot; -o &amp;quot;Directorio de salida&amp;quot; -c &amp;quot;Valor de contraste&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;colaborar-con-el-proyecto&quot;&gt;Colaborar con el proyecto&lt;/h1&gt;
+&lt;p&gt;Si tenes un tiempo disponible y te gustaría mejorar algo del proyecto estás
+invitado a participar e incluir tus propuestas.&lt;/p&gt;
+&lt;p&gt;En este &lt;a href=&quot;https://gist.github.com/Chaser324/ce0505fbed06b947d962&quot;&gt;link&lt;/a&gt; vas a
+encontrar algunas ideas de como colaborar en GitHub.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Taller de canciones</title>
       <link>http://matipruvost.github.io//articles/taller-de-canciones/</link>

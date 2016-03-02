@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Image contrast - Mati Pruvost
+    </title>
+    <link rel="alternate" href="http://matipruvost.github.io//feed.xml" type="application/rss+xml" title="There are ideas to share · Hay ideas por compartir">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/mp.css">
+    <link rel="icon" type="image/icon" href="/logo.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-68568287-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+      $(function() {
+        var window_ = $(window).height();
+        var body = $("body").height();
+        if(window_ < body){
+          $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 10) {
+              $(".header").addClass('smaller');
+              $("#content").addClass('smaller-content');
+              var headerHeight = $('.header').height();
+              var headerMarginBottom = parseInt($(".header").css("margin-bottom"),10);
+              var headerMarginTop = parseInt($(".header").css("margin-top"),10);
+              var contentMarginTop = headerHeight + headerMarginBottom;
+              $("#content").css("margin-top", contentMarginTop+"px");
+            } else {
+              $(".header").removeClass("smaller");
+              $("#content").removeClass("smaller-content");
+              $("#content").css("margin-top", "inherit");
+            }
+          })
+        }
+      });
+    </script>
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Image contrast</h1>
+        <p class="author">Written by <span class="author">Mati Pruvost</span>
+        </p>
+        <div class="hide"><a target="_blank" href="http://www.facebook.com/share.php?u=http://matipruvost.github.io//articles/image-contrast/"><i class="fa fa-facebook share-icon"></i></a><a target="_blank" href="http://twitter.com/share?text=Image contrast&amp;url=http://matipruvost.github.io//articles/image-contrast/"><i class="fa fa-twitter share-icon"></i></a><a target="_blank" href="https://www.linkedin.com/cws/share?url=http://matipruvost.github.io//articles/image-contrast/"><i class="fa fa-linkedin share-icon"></i></a></div>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>¿Cómo agregar contraste a un grupo de imágenes automáticamente con <a href="https://github.com/MatiPruvost/image-contrast">image-contrast</a>?</p>
+<p><span class="more"></span></p>
+<p><img src="/articles/image-contrast/contrast.png" alt="Image contrast"></p>
+<p>Hace un tiempo tuve la necesidad de aplicar contraste a un grupo de imágenes,
+cerca de 100 fotografías. Podía prescindir de un contraste especifico
+para cada fotografía en particular, por lo tanto, un nivel constante a cada
+imagen ya era&nbsp;suficiente.</p>
+<p>Para manipular fotografías acostumbro a utilizar <a href="https://www.gimp.org/">Gimp</a>,
+sin embargo, para este caso, era&nbsp;mejor:</p>
+<ul>
+<li>Correr un script que aplique un contraste a cada imagen&nbsp;automáticamente.</li>
+<li>Las imágenes de origen estén alojadas en un&nbsp;directorio.</li>
+<li>Las imágenes con contraste queden en otro&nbsp;directorio.</li>
+</ul>
+<p>Con esa idea simple comencé a agregar lineas de código al script, y como esquema
+simplificado tenía la siguiente&nbsp;propuesta:</p>
+<p><img src="/articles/image-contrast/schema.png" alt="Schema"></p>
+<p>Después de unas horas surgió
+<a href="https://github.com/MatiPruvost/image-contrast">image-contrast</a> que permite
+modificar el contraste de una serie de imágenes automáticamente con una sola
+línea de&nbsp;comando.</p>
+<p>A continuación dejo una guía para trabajar con&nbsp;image-contrast.</p>
+<h1 id="instalar-requisitos">Instalar&nbsp;requisitos</h1>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git</a></li>
+<li><a href="https://nodejs.org/en/download/">Node</a></li>
+</ul>
+<h1 id="instalaci-n">Instalación</h1>
+<p>Clonar el&nbsp;repositorio:</p>
+<ul>
+<li><code>$ git clone git@github.com:MatiPruvost/image-contrast.git</code></li>
+</ul>
+<p>Instalar&nbsp;dependencias:</p>
+<ul>
+<li><code>$ npm install</code></li>
+</ul>
+<h1 id="ejecutar-image-contrast">Ejecutar&nbsp;image-contrast</h1>
+<ul>
+<li><code>$ node index.js -i &quot;directorio de entrada&quot; -o &quot;Directorio de salida&quot; -c &quot;Valor de contraste&quot;</code></li>
+</ul>
+<h1 id="colaborar-con-el-proyecto">Colaborar con el&nbsp;proyecto</h1>
+<p>Si tenes un tiempo disponible y te gustaría mejorar algo del proyecto estás
+invitado a participar e incluir tus&nbsp;propuestas.</p>
+<p>En este <a href="https://gist.github.com/Chaser324/ce0505fbed06b947d962">link</a> vas a
+encontrar algunas ideas de como colaborar en&nbsp;GitHub.</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <h1>Comentarios</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          /**
+          * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+          */
+          var disqus_config = function () {
+            this.page.url = locals.url+page.url; // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = page.url; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            this.page.title = page.title;
+          };
+          
+          (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+          
+            s.src = '//matipruvost.disqus.com/embed.js';
+          
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        <section class="about"><p>Mati Pruvost is made by <a href="https://ar.linkedin.com/in/matiaspruvost">Mati Pruvost</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2016 Mati Pruvost &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
